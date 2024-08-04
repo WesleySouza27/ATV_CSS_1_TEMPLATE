@@ -1,0 +1,72 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: aquamarine;
+}
+
+pre {
+    color: rgb(132, 139, 33);
+}
+
+h1, h2, h3, h4, h5 {
+    font-size: 2rem;
+    color: rgb(255, 2, 2);
+}
+
+h6 {
+    font-size: 1.5rem;
+    color: blue;
+}
+
+strong {
+    color: blue;
+}
+
+mark {
+    color: rgb(0, 233, 250);
+    background-color: rgb(1, 56, 19);
+}
+
+a {
+    border: 1px solid black;
+    border-radius: 50px;
+    text-decoration: none;
+    color: rgb(194, 0, 0);
+}
+
+table, th, td, tr {
+  border: 1px dotted rgb(0, 102, 170);
+  border-collapse: collapse;
+  padding: 10px;
+}
+
+table {
+    height: 30vh;
+    width: 30vw;
+}
+
+th {
+    border-bottom: 3px solid rgb(0, 102, 170);
+    background-color: rgb(118, 89, 146);
+}
+
+tr {
+    border-bottom: 1px solid rgb(0, 102, 170);
+}
+
+td:nth-child(even) {
+    background:lightgray;
+  }
+
+dl {
+    border: 1px solid rgb(0, 102, 170);
+    width: 20rem;
+    padding: .3125rem;
+}
+ul {
+    list-style-type:circle;
+}
+
+iframe {
+    width: 30vw;
+    height: 30vh;
+}
